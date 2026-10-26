@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "identity": "BlazorHybridApp.Desktop.CSharp",
+  "name": "Blazor Hybrid Desktop App (Windows, macOS, Linux)",
+  "shortName": "blazorhybrid-desktop",
+  "classifications": [ "Desktop", "Blazor", "Windows", "macOS", "Linux" ],
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "BlazorHybridApp",
+  "preferNameDirectory": true,
+  "sources": [
+    {
+      "exclude": [ ".git/**", "**/[Bb]in/**", "**/[Oo]bj/**", ".template.config/**", "**/*.user", "**/.vs/**", "**/.idea/**" ]
+    }
+  ]
+}
